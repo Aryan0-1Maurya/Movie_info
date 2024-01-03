@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    background: linear-gradient(rgb(0 0 0 / 66%), rgb(0 0 0 / 63%)),
+                url(https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
